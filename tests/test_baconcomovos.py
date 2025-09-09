@@ -11,8 +11,16 @@ Refactor
 Parte 3 -> Melhorar o código mantendo o teste passando
 """
 
+try:
+    import sys
+    import os
+
+    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+except:
+    raise
+
 import unittest
-from src.baconcomovos import bacon_com_ovos
+from baconcomovos import bacon_com_ovos
 
 
 class TestBaconComOvos(unittest.TestCase):
