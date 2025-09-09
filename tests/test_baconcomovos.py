@@ -12,7 +12,7 @@ Parte 3 -> Melhorar o código mantendo o teste passando
 """
 
 import unittest
-from baconcomovos import bacon_com_ovos
+from src.baconcomovos import bacon_com_ovos
 
 
 class TestBaconComOvos(unittest.TestCase):
